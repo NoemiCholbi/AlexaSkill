@@ -1,0 +1,483 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "una aventura mágica",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "CambiarNombreIntent",
+          "slots": [
+            {
+              "name": "nombre",
+              "type": "AMAZON.FirstName",
+              "samples": [
+                "mi nombre es {nombre}",
+                "lo llamaré {nombre}",
+                "me llamo {nombre}",
+                "se llama {nombre}",
+                "se llamará {nombre}",
+                "{nombre}"
+              ]
+            }
+          ],
+          "samples": [
+            "llámame {nombre}",
+            "modificar nombre por {nombre}",
+            "modificar nombre",
+            "nomen morfus",
+            "elegir nuevo nombre",
+            "elegir nombre",
+            "nuevo nombre",
+            "cambiar nombre por {nombre}",
+            "cambiar nombre",
+            "cambiar",
+            "cambiar mi nombre a {nombre}",
+            "poner como nuevo nombre {nombre}",
+            "cambia mi nombre por {nombre}",
+            "cambia el nombre de mi personaje",
+            "me gustaría cambiar mi nombre",
+            "deseo cambiar mi nombre",
+            "renombrar",
+            "quiero cambiar mi nombre",
+            "cambiar mi nombre",
+            "cambia mi nombre"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "ComenzarAventuraIntent",
+          "slots": [],
+          "samples": [
+            "empezar aventura",
+            "empezar mi aventura",
+            "empiezo mi aventura",
+            "empezemos",
+            "comencemos",
+            "empezar",
+            "comenzar una aventura magica",
+            "comenzar la aventura",
+            "comenzar"
+          ]
+        },
+        {
+          "name": "EscenaTrenIntent",
+          "slots": [],
+          "samples": [
+            "subirse",
+            "subir al tren",
+            "montarse",
+            "montar",
+            "montar en el tren",
+            "montarse en el tren",
+            "móntate en el tren",
+            "coge el tren",
+            "cojo el tren",
+            "tomar el tren",
+            "coger el tren",
+            "tren",
+            "voy al tren",
+            "Ir al tren",
+            "Viajeros al tren"
+          ]
+        },
+        {
+          "name": "ComprarChuchesIntent",
+          "slots": [],
+          "samples": [
+            "compro una chuchería",
+            "compro una chuche",
+            "compro chuches",
+            "compro chucherias",
+            "coger chucherías",
+            "coger chuches",
+            "comprar rana de chocolate",
+            "chucherías",
+            "chuches",
+            "comprar chucherías",
+            "comprar una de esas deliciosas chuches",
+            "comprar chuches"
+          ]
+        },
+        {
+          "name": "IntervenirPeleaIntent",
+          "slots": [],
+          "samples": [
+            "intervenir",
+            "intervengo",
+            "Me uno al combate",
+            "Me meto en la pelea",
+            "Intervengo en la pelea",
+            "Ayudar en la pelea",
+            "Intervenir en la pelea"
+          ]
+        },
+        {
+          "name": "PedirAyudaIntent",
+          "slots": [],
+          "samples": [
+            "pido ayuda",
+            "ir por ayuda",
+            "ir a pedir ayuda",
+            "pedir ayuda"
+          ]
+        },
+        {
+          "name": "LlegadaHogwartsIntent",
+          "slots": [],
+          "samples": [
+            "subir al carro",
+            "montar en el carruaje",
+            "subir al carruaje",
+            "arre",
+            "me monto",
+            "monto en el carruaje",
+            "montarse",
+            "carruaje",
+            "Atravesar el bosque",
+            "montarse en el carruaje",
+            "Coger el carruaje",
+            "Cojo el carruaje"
+          ]
+        },
+        {
+          "name": "SombreroSeleccionadorIntent",
+          "slots": [],
+          "samples": [
+            "entrar",
+            "ir al gran salón",
+            "entrar en el gran salón",
+            "entrar al gran salón",
+            "entrar en el gran salon",
+            "entrar al gran salon",
+            "entrar al gran comedor",
+            "entrar en el gran comedor",
+            "ir al gran salon",
+            "ir al gran comedor"
+          ]
+        },
+        {
+          "name": "AdivinanzaIntent",
+          "slots": [
+            {
+              "name": "Respuesta",
+              "type": "Adivinanza",
+              "samples": [
+                "no {Respuesta}",
+                "me {Respuesta}",
+                "no lo {Respuesta}",
+                "ni {Respuesta}",
+                "no tengo ni {Respuesta}",
+                "una {Respuesta}",
+                "en el mes de {Respuesta}",
+                "en {Respuesta}",
+                "mi {Respuesta}",
+                "tu {Respuesta}",
+                "el mes de {Respuesta}",
+                "{Respuesta}",
+                "la {Respuesta}",
+                "el {Respuesta}",
+                "la respuesta es la {Respuesta}",
+                "la respuesta es el {Respuesta}"
+              ]
+            }
+          ],
+          "samples": [
+            "dispara",
+            "dime la adivinanza",
+            "enfrentarme a la adivinanza",
+            "estoy preparada",
+            "estoy preparado",
+            "cuando quieras",
+            "estoy lista",
+            "estoy listo"
+          ]
+        },
+        {
+          "name": "PocionesIntent",
+          "slots": [],
+          "samples": [
+            "voy a la clase de esnaip",
+            "ir a la clase de esnaip",
+            "ir con esneip",
+            "ir a pociones",
+            "voy a pociones",
+            "elijo pociones",
+            "voy a clase de pociones",
+            "ir a clase de pociones"
+          ]
+        },
+        {
+          "name": "ArtesOscurasIntent",
+          "slots": [],
+          "samples": [
+            "voy a defensa contra las artes oscuras",
+            "ir a defensa contra las artes oscuras",
+            "voy a defensa contra las artes oscuras",
+            "elijo defensa contra las artes oscuras",
+            "voy a defensa",
+            "ir a artes oscuras"
+          ]
+        },
+        {
+          "name": "EncantamientosIntent",
+          "slots": [
+            {
+              "name": "Page",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "la página {Page}",
+                "la {Page}",
+                "{Page}",
+                "ir a la página {Page}"
+              ]
+            }
+          ],
+          "samples": [
+            "ir a clase de encantamientos",
+            "ir a encantamientos",
+            "voy a encantamientos",
+            "elijo encantamientoss",
+            "voy a clase de encantamientos"
+          ]
+        },
+        {
+          "name": "CalizIntent",
+          "slots": [],
+          "samples": [
+            "ir al caliz de fuego",
+            "ver el caliz de fuego",
+            "cáliz de fuego",
+            "ir al cáliz de fuego",
+            "ver el cáliz de fuego",
+            "ver selección de los tres magos",
+            "ver la selección de campeones",
+            "ir a ver la selección"
+          ]
+        },
+        {
+          "name": "ContinuarIntent",
+          "slots": [],
+          "samples": [
+            "continuar la historia",
+            "seguir la historia",
+            "seguir donde lo dejé",
+            "continuar mi aventura",
+            "continuar la aventura",
+            "quiero continuar",
+            "continuar"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "vela"
+              }
+            },
+            {
+              "name": {
+                "value": "febrero"
+              }
+            },
+            {
+              "name": {
+                "value": "nombre"
+              }
+            },
+            {
+              "id": "5",
+              "name": {
+                "value": "fuego",
+                "synonyms": [
+                  "llama"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "llama"
+              }
+            }
+          ],
+          "name": "Adivinanza"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "CambiarNombreIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "nombre",
+              "type": "AMAZON.FirstName",
+              "elicitationRequired": true,
+              "confirmationRequired": true,
+              "prompts": {
+                "confirmation": "Confirm.Slot.27443883007.1467481690507",
+                "elicitation": "Elicit.Slot.1414725990243.1186789086248"
+              }
+            }
+          ],
+          "delegationStrategy": "ALWAYS"
+        },
+        {
+          "name": "AdivinanzaIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "Respuesta",
+              "type": "Adivinanza",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.581271128548.133677952414"
+              }
+            }
+          ]
+        },
+        {
+          "name": "EncantamientosIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "Page",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.499733746651.1062899218671"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1414725990243.1186789086248",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "¿Cómo va a llamarse tu mágico avatar?"
+          },
+          {
+            "type": "PlainText",
+            "value": "¿Cuál es el nuevo nombre?"
+          },
+          {
+            "type": "PlainText",
+            "value": "¿Qué nombre desea para su personaje?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Slot.1414725990243.1186789086248",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Perfecto, ¿entonces {Nombre} , no es cierto?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Por los poderes mágicos que me han sido concedidos por mi programador, yo te declaro {Nombre} . Es el nombre correcto, ¿no?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Serás {Nombre} , ¿verdad?"
+          },
+          {
+            "type": "PlainText",
+            "value": "¿{Nombre} , verdad?"
+          },
+          {
+            "type": "PlainText",
+            "value": "¿Entonces se llamará {Nombre} ?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Slot.27443883007.1467481690507",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "¿Seguro que quieres {nombre} como nombre?"
+          },
+          {
+            "type": "PlainText",
+            "value": "¿Entonces te llamas {nombre} , verdad?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Por los poderes mágicos que me ha concedido mi programador, yo te declaro {nombre} , es correcto, ¿no?"
+          }
+        ]
+      },
+      {
+        "id": "Confirm.Slot.581271128548.133677952414",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "¿Estás seguro de que {Respuesta} es la solución?"
+          },
+          {
+            "type": "PlainText",
+            "value": "¿Es {Respuesta} tu respuesta final?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.581271128548.133677952414",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Soy alto siendo joven y corto cuando soy viejo. Resplandezco con la vida y el viento es mi mayor enemigo. ¿Qué soy?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Las personas siempre duermen menos en un mes del año. ¿Cuál es este mes?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Crezco a pesar de no estar vivo. No tengo pulmones, pero para vivir necesito aire. El agua, aunque no tenga boca, me mata. ¿Qué soy?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Hay algo que, aunque te pertenezca, la gente siempre lo utiliza más que tú. ¿Qué es?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.499733746651.1062899218671",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Te emociona aprender un nuevo hechizo, y acabas de recibir un libro repleto de ellos. Setenta y dos páginas llenas de conocimiento y de magia... ¿Qué número de página consultarás primero?"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "16"
+}
